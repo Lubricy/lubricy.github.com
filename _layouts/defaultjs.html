@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+        <link rel="stylesheet" type="text/css" href="/css/stylesheet.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/css/pygment_trac.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js">
+        </script>
+        <title>{{ site.name }}</title>
+    </head>
+
+    <body>
+
+        <header>
+        <div class="container">
+            <h1>{{ site.name }}</h1>
+            <h2>{{ site.description }}</h2>
+            <div class="index">
+                <section id="index">
+                <a href="/index.html" class="btn">Home</a>
+                <a href="/about.html" class="btn">About</a>
+                </section>
+                <section id="downloads">
+                <a href="https://github.com/Lubricy" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+                </section>
+            </div>
+        </div>
+        </header>
+
+        <div class="container">
+            <section id="main_content">
+            {{ content }}
+            </section>
+        </div> <!-- /container -->
+
+        <footer>
+        <div class="container">
+            <div class="info"> <p>
+                {{ site.username }}
+                </p></div>
+                <div class="info"> <p>
+                    {{ site.address }}
+                    </p></div>
+                    <div class="info"> <p>
+                        <a class="btn" href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a><br />
+                        </p></div>
+                        <div class="info"> <p>
+                            <a  class="btn" href="mailto:{{ site.email }}">{{ site.email }}</a>
+                            </p></div>
+                        </div>
+                        </footer>
+
+                    </body>
+                </html>
