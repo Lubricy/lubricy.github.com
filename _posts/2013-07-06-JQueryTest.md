@@ -1,5 +1,5 @@
 ---
-layout: defaultjs
+layout: post
 title:  "JQueryTest"
 date:   2013-07-06 22:35:08
 categories: 
