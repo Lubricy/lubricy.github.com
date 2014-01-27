@@ -24,8 +24,8 @@ clearLink.onclick();
 <canvas id="grid" width="500" height="500"></canvas>
 <p>每个元胞最少与
 <select id="minimumSelect">
-					<option value="1" selected="yes">1</option>
-					<option value="2">2</option>
+					<option value="1">1</option>
+					<option value="2" selected="yes">2</option>
 					<option value="3">3</option>
 					<option value="4">4</option>
 					<option value="5">5</option>

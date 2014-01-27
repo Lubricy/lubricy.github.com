@@ -23,11 +23,11 @@ $(document).ready(
     Life.HEIGHT = Life.Y / Life.CELL_SIZE;
     Life.DEAD = 0;
     Life.ALIVE = 1;
-    Life.DELAY = 100;
+    Life.DELAY = 200;
     Life.STOPPED = 0;
     Life.RUNNING = 1;
 
-    Life.minimum = 1;
+    Life.minimum = 2;
     Life.maximum = 3;
     Life.spawn = 3;
 
