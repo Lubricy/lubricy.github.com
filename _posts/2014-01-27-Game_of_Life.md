@@ -1,14 +1,14 @@
-﻿---
+﻿----
 layout: post
 title:  "Game of Life"
 date:   2014-01-27 18:57:28
 categories: 
----
+----
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
 </script>
-<script src="../javascripts/game_of_life.js">
+<script src="/javascripts/game_of_life.js">
 </script>
 <p>计数器: <span id="counter">0</span></p>
 <a id="controlLink" href="javascript:void(0)">开始/暂停</a>
