@@ -9,9 +9,15 @@ categories:
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
 </script>
 <script src="/javascripts/game_of_life.js">
+clearLink.onclick()
 </script>
+<style type="text/css">
+.numinput {width:30px;}
+.canvas {}
+</style>
 <p>
 计数器: <span id="counter">0</span>
+速度:<input id="speed" type="text" class="numinput"/>
 <a class="btn" id="controlLink" href="javascript:void(0)">开始/暂停</a>
 <a class="btn" id="clearLink" href="javascript:void(0)">清空</a>
 <a class="btn" id="RandomLink" href="javascript:void(0)">随机</a>
