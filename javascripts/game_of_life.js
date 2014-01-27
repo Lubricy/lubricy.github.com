@@ -134,8 +134,8 @@ $(document).ready(
       pointarr = picstr.split("|");
       for(var i in pointarr){
           var p = pointarr[i].split(",");
-          var h = parseInt(p[0]);
-          var w = parseInt(p[1]) + 12;
+          var h = parseInt(p[0]) + 15;
+          var w = parseInt(p[1]) + 2;
           Life.grid[h][w] = 1;
           Life.grid[Life.HEIGHT-h][Life.WIDTH-w] = 1;
       }
