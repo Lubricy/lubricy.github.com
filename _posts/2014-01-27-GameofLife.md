@@ -19,6 +19,7 @@ clearLink.onclick();
 <a class="btn" id="controlLink" href="javascript:void(0)">开始/暂停</a>
 <a class="btn" id="clearLink" href="javascript:void(0)">清空</a>
 <a class="btn" id="RandomLink" href="javascript:void(0)">随机</a>
+<a class="btn" id="InitLink" href="javascript:void(0)">毁灭地喷射白光！哒！</a>
 计数器: <span id="counter">0</span>
 </p>
 <canvas id="grid" width="500" height="500"></canvas>

@@ -96,6 +96,7 @@ $(document).ready(
     var counterSpan = document.getElementById("counter");
     var controlLink = document.getElementById("controlLink");
     var clearLink = document.getElementById("clearLink");
+    var InitLink = document.getElementById("InitLink");
     var RandomLink = document.getElementById("RandomLink");
     var minimumSelect = document.getElementById("minimumSelect");
     var maximumSelect = document.getElementById("maximumSelect");
@@ -120,6 +121,20 @@ $(document).ready(
       Life.counter = 0;
       clearInterval(Life.interval);
       Life.state = Life.STOPPED;
+      updateAnimations();
+    }
+
+    InitLink.onclick = function() {
+      Life.grid = Array.matrix(Life.HEIGHT, Life.WIDTH, 0);
+      Life.counter = 0;
+      clearInterval(Life.interval);
+      Life.state = Life.STOPPED;
+      var picstr = 
+          "2,2 3,3 4,4";
+      for(var point in picstr.split()){
+          var p = point.split(",");
+          Life.grid[p[0]][p[1]]=1;
+      }
       updateAnimations();
     }
 
@@ -174,9 +189,9 @@ $(document).ready(
       for (var h = 0; h < Life.HEIGHT; h++) {
         for (var w = 0; w < Life.WIDTH; w++) {
           if (Life.grid[h][w] === Life.ALIVE) {
-            context.fillStyle = "#000";
+            context.fillStyle = "#fff";
           } else {
-            context.fillStyle = "#eee";
+            context.fillStyle = "#111";
             //context.clearRect();
           }
           context.fillRect(
