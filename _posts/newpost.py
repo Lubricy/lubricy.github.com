@@ -19,4 +19,4 @@ categories: %s
 """ % (title,now,categories)
 f.write(text)
 f.close()
-os.system("vim " + filename)
+os.system("vim '%s'" % filename)

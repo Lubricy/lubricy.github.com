@@ -14,3 +14,4 @@ $(document).ready(function(){
 <p>If you click on me, I will disappear.</p>
 <p>Click me away!</p>
 <p>Click me too!</p>
+<canvas width='500' height='500'></canvas>
