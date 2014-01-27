@@ -13,4 +13,4 @@ $ cat ~/.inputrc
 "\e[B": history-search-forward
 set show-all-if-ambiguous on
 set completion-ignore-case on
-{% highlight %}
+{% endhighlight %}
