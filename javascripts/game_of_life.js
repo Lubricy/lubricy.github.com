@@ -16,14 +16,14 @@ $(document).ready(
 
     var Life = {};
 
-    Life.CELL_SIZE = 10;
-    Life.X = 490;
-    Life.Y = 490;
+    Life.CELL_SIZE = 5;
+    Life.X = 500;
+    Life.Y = 500;
     Life.WIDTH = Life.X / Life.CELL_SIZE;
     Life.HEIGHT = Life.Y / Life.CELL_SIZE;
     Life.DEAD = 0;
     Life.ALIVE = 1;
-    Life.DELAY = 200;
+    Life.DELAY = 50;
     Life.STOPPED = 0;
     Life.RUNNING = 1;
 
