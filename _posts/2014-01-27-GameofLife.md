@@ -11,11 +11,11 @@ categories:
 <script src="/javascripts/game_of_life.js">
 </script>
 <p>
+计数器: <span id="counter">0</span>
 <a class="btn" id="controlLink" href="javascript:void(0)">开始/暂停</a>
 <a class="btn" id="clearLink" href="javascript:void(0)">清空</a>
-<a class="bin" id="RandomLink" href="javascript:void(0)">随机</a>
+<a class="btn" id="RandomLink" href="javascript:void(0)">随机</a>
 </p>
-<p>计数器: <span id="counter">0</span></p>
 <canvas id="grid" width="500" height="500"></canvas>
 <p>每个元胞最少与
 <select id="minimumSelect">
@@ -33,7 +33,7 @@ categories:
 					<option value="4">4</option>
 					<option value="5">5</option>
 					<option value="6">6</option>
-				</select>个元胞相邻</p>。
+				</select>个元胞相邻。</p>
 <p>当相邻数恰好为
 <select id="spawnSelect">
 					<option value="1">1</option>
