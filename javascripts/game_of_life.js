@@ -17,8 +17,8 @@ $(document).ready(
     var Life = {};
 
     Life.CELL_SIZE = 10;
-    Life.X = 500;
-    Life.Y = 500;
+    Life.X = 490;
+    Life.Y = 490;
     Life.WIDTH = Life.X / Life.CELL_SIZE;
     Life.HEIGHT = Life.Y / Life.CELL_SIZE;
     Life.DEAD = 0;

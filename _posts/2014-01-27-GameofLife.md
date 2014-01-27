@@ -16,11 +16,10 @@ clearLink.onclick()
 .canvas {}
 </style>
 <p>
-计数器: <span id="counter">0</span>
-速度:<input id="speed" type="text" class="numinput"/>
 <a class="btn" id="controlLink" href="javascript:void(0)">开始/暂停</a>
 <a class="btn" id="clearLink" href="javascript:void(0)">清空</a>
 <a class="btn" id="RandomLink" href="javascript:void(0)">随机</a>
+计数器: <span id="counter">0</span>
 </p>
 <canvas id="grid" width="500" height="500"></canvas>
 <p>每个元胞最少与
