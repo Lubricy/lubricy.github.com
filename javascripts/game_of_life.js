@@ -130,7 +130,7 @@ $(document).ready(
       clearInterval(Life.interval);
       Life.state = Life.STOPPED;
       var picstr = 
-          "2,2|3,3|4,4";
+          "8,1|9,1|8,2|9,2|7,8|8,8|9,8|6,9|7,9|9,9|10,9|6,10|7,10|9,10|10,10|6,11|7,11|8,11|9,11|10,11|5,12|6,12|10,12|11,12|7,15|8,15|6,16|7,16|8,16|9,16|10,16|6,17|8,18|9,18|10,18|10,19|8,20|9,20|8,21|9,21|3,24|4,24|8,24|9,24|3,25|5,25|7,25|9,25|4,26|5,26|6,26|7,26|8,26|5,27|6,27|7,27|6,28|6,35|7,35|6,36|7,36";
       pointarr = picstr.split("|");
       for(var i in pointarr){
           var p = pointarr[i].split(",");
@@ -217,7 +217,7 @@ $(document).ready(
         context.moveTo(0, 0.5 + y);
         context.lineTo(Life.X, 0.5 + y);
       }
-      context.strokeStyle = "#fff";
+      context.strokeStyle = "#000";
       context.stroke();
 
       function canvasOnClickHandler(event) {
