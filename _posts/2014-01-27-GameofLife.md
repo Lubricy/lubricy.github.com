@@ -7,9 +7,9 @@ categories:
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+clearLink.onclick();
 </script>
 <script src="/javascripts/game_of_life.js">
-clearLink.onclick()
 </script>
 <style type="text/css">
 .numinput {width:30px;}
