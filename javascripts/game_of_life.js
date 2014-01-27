@@ -134,10 +134,10 @@ $(document).ready(
       pointarr = picstr.split("|");
       for(var i in pointarr){
           var p = pointarr[i].split(",");
-          var h = parseInt(p[0]) + 15;
-          var w = parseInt(p[1]) + 2;
+          var h = parseInt(p[0]) + 12;
+          var w = parseInt(p[1]);
           Life.grid[h][w] = 1;
-          Life.grid[Life.HEIGHT-h][Life.WIDTH-w] = 1;
+          Life.grid[Life.HEIGHT-h-1][Life.WIDTH-w-1] = 1;
       }
       updateAnimations();
     }
