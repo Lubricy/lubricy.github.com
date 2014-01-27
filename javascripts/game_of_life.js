@@ -136,8 +136,8 @@ $(document).ready(
           var p = pointarr[i].split(",");
           var h = parseInt(p[0]);
           var w = parseInt(p[1]) + 12;
-          Life.grid[h][w]=1;
-          Life.grid[Life.HEIGHT-h][Life.WIDTH-w]=1;
+          Life.grid[h][w] = 1;
+          Life.grid[Life.HEIGHT-h][Life.WIDTH-w] = 1;
       }
       updateAnimations();
     }
