@@ -131,7 +131,7 @@ $(document).ready(
       Life.state = Life.STOPPED;
       var picstr = 
           "2,2 3,3 4,4";
-      for(var point in picstr.split()){
+      for(var point in picstr.split(" ")){
           var p = point.split(",");
           Life.grid[p[0]][p[1]]=1;
       }
