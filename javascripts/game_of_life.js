@@ -100,7 +100,6 @@ $(document).ready(
     var minimumSelect = document.getElementById("minimumSelect");
     var maximumSelect = document.getElementById("maximumSelect");
     var spawnSelect = document.getElementById("spawnSelect");
-    var speed = document.getElementById("speed");
 
     controlLink.onclick = function() {
       switch (Life.state) {
@@ -158,11 +157,6 @@ $(document).ready(
       clearInterval(Life.interval);
       Life.state = Life.STOPPED;
       Life.spawn = spawnSelect.value;
-    }
-    speed.onchange = function() {
-      cleddarInterval(Life.interval);
-      Life.state = Life.STOPPED;
-      Life.interval = speed.value;
     }
 
 
