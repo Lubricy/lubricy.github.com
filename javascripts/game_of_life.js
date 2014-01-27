@@ -137,7 +137,7 @@ $(document).ready(
           var h = p[0] - 2;
           var w = p[1] ;
           Life.grid[h][w]]=1;
-          Life.grid[Life.HEIGHT-h][Life.WIDTH-w]=1
+          Life.grid[Life.HEIGHT-h][Life.WIDTH-w]=1;
       }
       updateAnimations();
     }
