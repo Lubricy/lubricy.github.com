@@ -130,9 +130,10 @@ $(document).ready(
       clearInterval(Life.interval);
       Life.state = Life.STOPPED;
       var picstr = 
-          "2,2 3,3 4,4";
-      for(var point in picstr.split(" ")){
-          var p = point.split(",");
+          "2,2|3,3|4,4";
+      pointarr = picstr.split("|");
+      for(var i in pointarr){
+          var p = pointarr[i].split(",");
           Life.grid[p[0]][p[1]]=1;
       }
       updateAnimations();
